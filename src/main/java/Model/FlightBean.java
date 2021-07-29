@@ -12,7 +12,7 @@ public class FlightBean implements Serializable{
 		super();
 	}
 	
-	//service
+	//novi komentar
 	private int IdLeta;
 	private Timestamp DatumLeta;
 	private String PolaznaLokacija;

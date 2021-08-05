@@ -2,7 +2,7 @@ package Services;
 
 import java.util.List;
 
-import Model.FlightBean;
+import Beans.FlightBean;
 
 public class FlightService {
 	

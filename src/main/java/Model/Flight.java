@@ -1,14 +1,11 @@
 package Model;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class FlightBean implements Serializable{
-
-	
+public class Flight {
 	private static final long serialVersionUID = 1L;
 
-	public FlightBean() {
+	public Flight() {
 		super();
 	}
 	
@@ -22,7 +19,7 @@ public class FlightBean implements Serializable{
 	private String OpisTereta;
 	private String FajlSaSpecifikacijom;
 	
-	public FlightBean(int idLeta, Timestamp datumLeta, String polaznaLokacija, String odredisnaLokacija, int brojMjesta,
+	public Flight(int idLeta, Timestamp datumLeta, String polaznaLokacija, String odredisnaLokacija, int brojMjesta,
 			String vrstaLeta, String opisTereta, String fajlSaSpecifikacijom) {
 		super();
 		IdLeta = idLeta;
@@ -98,9 +95,6 @@ public class FlightBean implements Serializable{
 	public void setFajlSaSpecifikacijom(String fajlSaSpecifikacijom) {
 		FajlSaSpecifikacijom = fajlSaSpecifikacijom;
 	}
-	
-	
-	
 	
 	
 	
